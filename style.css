@@ -1,3 +1,17 @@
 h1 {
   color: red;
 }
+.main-picture{
+  position: relative;
+  left: 300px;
+}
+.main-right{
+  position: relative;
+  left: 800px;
+  bottom: 180px;
+}
+.main-left{
+  position: relative;
+  left: 160px;
+  top: 230px;
+}

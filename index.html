@@ -6,7 +6,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" type="text/css" href="style.css" />
     <title>Document</title>
-    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+
+<script type="text/javascript">
+        $(document).ready(function(){
+            $('.slider').bxSlider({
+                auto: true,
+                pause: 5000,
+            });
+        });
+</script>
+
   </head>
   <body>
     <header>
@@ -31,22 +43,18 @@
         </div>
     </header>
     <main>
-        <div class= "main-left">
-            <img src="picture/left.png" height="100px" />
-        </div>
-      <div class="main-picture">
-        <img src="picture/main-1.png" height="300px" />
-      </div>
-       <div class="main-right">
-        　　　　 <img src="picture/right.png" height="100px" />
-       </div>
-        
-      </h2>
+        <div class="slider">
+          <a href="people3"><img src="picture/1.png" width="1000" height="500" alt=""></a>
+          <a href="people2"><img src="picture/2.png" width="1000" height="500" alt=""></a>
+          <a href="people1"><img src="picture/3.png" width="1000" height="500" alt=""></a>
+            </div>
+            
     </main>
-
+    
     <footer>
         copyrights 2021-2025 All Rights Reserved Panofcostoco
     </footer>
 
   </body>
 </html>
+ 

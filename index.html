@@ -7,29 +7,63 @@
     <link rel="stylesheet" type="text/css" href="style.css" />
     <title>Document</title>
 
+
+    
+
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+
+<script type="text/javascript">
+        $(document).ready(function(){
+            $('.slider').bxSlider({
+                auto: true,
+                pause: 5000,
+            });
+        });
+</script>
+
   </head>
   <body>
-    <div class= "container">  
-        <main>
-            <div class= "main-left">
-                <img src="picture/left.png" height="100px" />
-            </div>
-            <div class="main-picture">
-                <img src="picture/main-1.png" height="300px" />
-            </div>
-            <div class="main-right">
-                <img src="picture/right.png" height="100px" />
+    <header>
+        <div class="headerMain">
+            <a href="index.html"><h1>G</h1></a>
+        </div>
+        <div class="headerList">
+            <ul>
+                <li>
+                    <input type="search">
+                </li>
+                <li>
+                    <a href="">All Menber</a>
+                </li>
+                <li>
+                    <a href="pan.html">pan</a>
+                </li>
+                <li>
+                    <a href="">login</a>
+                </li>
+            </ul>
+        </div>
+    </header>
+    <main>
+        <div class="slider">
+          <a href="people3"><img src="picture/1.png" width="1000" height="500" alt=""></a>
+          <a href="people2"><img src="picture/2.png" width="1000" height="500" alt=""></a>
+          <a href="people1"><img src="picture/3.png" width="1000" height="500" alt=""></a>
             </div>
             
-        </main>
-
-    </div>
-
+    </main>
+    
     <div class= "footer-container">  
         <footer>
             copyrights 2021-2025 All Rights Reserved Panofcostoco
         </footer>
     </div>
 
+
   </body>
 </html>
+ 
+

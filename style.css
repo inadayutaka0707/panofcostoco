@@ -11,3 +11,18 @@ footer{
   width: 100%;
   height: 30px;
 }
+
+.main-picture{
+  position: relative;
+  left: 300px;
+}
+.main-right{
+  position: relative;
+  left: 800px;
+  bottom: 180px;
+}
+.main-left{
+  position: relative;
+  left: 160px;
+  top: 230px;
+}

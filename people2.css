@@ -1,0 +1,9 @@
+body {
+  text-align: center;
+  background-image: url("./img/tomholand.jpg");
+  background-position: 50px;
+}
+
+h1 {
+  color: blue;
+}
